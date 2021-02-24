@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="art4.css">
+    <title>MyBlog | 【Python】openpyxlとtkinterを使った一問一答プログラム</title>
+</head>
+<body>
+    <header>
+    </header>
+
+    <div class="main">
+        <h2>【Python】openpyxlとtkinterを使った一問一答プログラム</h2>
+
+        <div class="cont">
+
+        <h3>はじめに</h3>
+        <p>
+        僕は現在、応用情報技術者試験(AP)の勉強に励んでいます。
+        参考書を購入して毎日コツコツ勉強していますが、覚えることが本当に多い！！
+        そこで効率よく学習を行うために一問一答用のプログラムを作成することにしました。<br>
+        今回はPythonのGUIライブラリであるtkinterとExcelライブラリのopenpyxlを使用しました。
+        </p>
+        <h3>大まかな仕組み</h3>
+        <p>
+        まずExcelファイルに問題と解答を記入していきます。僕の場合は使用している参考書の章立てに合わせて
+        シートを分けています。
+        </p>
+        <img src="1.png">
+        <p>
+        次にopenpyxlでExcelファイルとシートを読み込み、問題と解答を抽出します。抽出した問題と解答は
+        それぞれリストに格納します。このリストから1つずつ取り出して、GUIに表示していきます。
+        </p>
+        <img src="2.png"　class="gui">
+        <p>
+        基本的な仕組みはこんな感じです。<br>
+        プログラムを実行すると、GUIの問題欄に問題が表示されます。次に回答欄に回答を入力します。
+        入力が終わったら「解答を表示」ボタンを押し解答を確認します。
+        確認後、「次へ」ボタンを押すことで次の問題が表示されます。
+        </p>
+        <h3>工夫した点</h3>
+        <p>
+        1.未暗記リスト機能で覚えられていない問題をピックアップすることができます。<br>
+        2.誤字、脱字を発見したら「ファイルを開く」ボタンを押すことでExcelファイルを開き、修正することができます。<br>
+        3.問題の順番は毎回異なるため、より効率のいい学習ができるようになります。<br>
+        </p>
+        <h3>ソースコード</h3>
+
+
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>
