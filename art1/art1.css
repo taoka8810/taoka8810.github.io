@@ -26,6 +26,10 @@ h3{
     border-bottom: 3px solid #ccc;
 }
 
+h4{
+    font-family: "游ゴシック";
+}
+
 p{
     font-family: "游ゴシック";
 }
@@ -33,6 +37,10 @@ p{
 @media (min-width: 481px){
     .main{
         margin: 100px 20%;
+    }
+
+    h3{
+        font-size: 22px;
     }
 
     .cont{
