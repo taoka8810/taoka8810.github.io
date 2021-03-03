@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(141, 0, 0);
+    width: 100%;
+    height: 80px;
+}
+
+.main{
+    background-color: white;
+    
+}
+
+h2{
+    background-color: rgb(141, 0, 0);
+    color: white;
+    padding: 20px;
+    font-family: "游ゴシック";
+}
+
+h3{
+    font-family: "游ゴシック";
+    border-bottom: 3px solid #ccc;
+}
+
+h4{
+    font-family: "游ゴシック";
+}
+
+p{
+    font-family: "游ゴシック";
+}
+
+@media (min-width: 481px){
+    .main{
+        margin: 100px 20%;
+    }
+
+    .cont{
+        padding: 0 20px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    p{
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main img{
+        width: 90%;
+        height: auto;
+        margin: 50px 5%;
+    }
+
+    .code{
+        height: 400px;
+        overflow-y: scroll;
+        margin: 50px 0;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 480px){
+    .main{
+        margin: 50px 5%;
+    }
+
+    .cont{
+        padding: 0 10px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .main img{
+        width: 100%;
+        height: auto;
+    }
+
+    .code{
+        height: 200px;
+        overflow-y: scroll;
+        margin: 50px 0;
+    }
+}
+
+
